@@ -11,3 +11,7 @@ Route::prefix("user")->group(function () {});
 Route::prefix("admin")->group(function () {
     Route::get("/",[AdminController::class,"dashboard"])->name("admin.dashboard");
 });
+
+Route::get('/', function () {
+    return view('home');
+})->name('homepage');
