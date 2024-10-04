@@ -14,8 +14,6 @@
             <div class="text-2xl font-bold text-pink-500">
                 <a href="#">AMBONS</a>
             </div>
-
-
             <a href="#" class="bg-pink-500 text-white px-4 py-2 rounded-md">Logout</a>
 
         </div>
