@@ -21,10 +21,10 @@
 
             <!-- Navbar Links -->
             <ul class="hidden md:flex space-x-6">
-                <li><a href="#" class="hover:text-yellow-300 text-lg">Home</a></li>
-                <li><a href="#" class="hover:text-yellow-300 text-lg">Services</a></li>
-                <li><a href="#" class="hover:text-yellow-300 text-lg">Rides</a></li>
-                <li><a href="#" class="hover:text-yellow-300 text-lg">Contact Us</a></li>
+                <li><a href="/" class="hover:text-yellow-300 text-lg">Home</a></li>
+                <li><a href="/about" class="hover:text-yellow-300 text-lg">About</a></li>
+                <li><a href="/faq" class="hover:text-yellow-300 text-lg">F.A.Q</a></li>
+                <li><a href="/blog" class="hover:text-yellow-300 text-lg">Blog</a></li>
             </ul>
 
             <!-- Call to Action Button -->

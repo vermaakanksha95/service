@@ -5,10 +5,10 @@ home page
 @section('content')
 <div class="mt-20">
     <img src="taxi-stripe.webp" alt="" class="w-full h-3">
-    <img src="slide-v1-2.jpg" alt="">
+    <img src="blog1.webp" alt="" class=" w-full">
     <div class="text-center flex items-center flex-col justify-center  p-10 bg-white">
         <h2 class="text-3xl font-light">choose your car</h2>
-        <img src="taxi.webp" alt="" class="py-3">
+        
     </div>
     <div class="bg-white">
         <ul class="flex gap-3  items-center justify-center ">

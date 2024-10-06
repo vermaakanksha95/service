@@ -9,12 +9,12 @@
 </head>
 
 <body>
-    <header class="bg-white shadow-lg ">
+    <header class="bg-black shadow-lg ">
         <div class="container  px-4 py-4 flex justify-between items-center">
-            <div class="text-2xl font-bold text-pink-500">
-                <a href="#">AMBONS</a>
+            <div class="text-2xl font-bold text-white">
+                <a href="#">CITYCAB</a>
             </div>
-            <a href="#" class="bg-pink-500 text-white px-4 py-2 rounded-md">Logout</a>
+            <a href="#" class="bg-black text-white px-4 py-2 rounded-md">Logout</a>
 
         </div>
     </header>
