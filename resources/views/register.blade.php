@@ -1,7 +1,7 @@
  @vite('resources/css/app.css')
  @extends('layout')
- <div class=" flex flex-1 justify-center mt-20">
-     <div class="w-full max-w-sm p-4 bg-white border border-gray-200 rounded-lg shadow sm:p-6 md:p-8 dark:bg-gray-800 dark:border-gray-700">
+ <div class=" flex flex-1 justify-center mt-24 ">
+     <div class="w-full max-w-sm p-4  bg-white border border-gray-200 rounded-lg shadow sm:p-6 md:p-8 dark:bg-gray-800 dark:border-gray-700">
          <form class="space-y-6" action="#">
              <h5 class="text-xl font-medium text-gray-900 dark:text-white">Sign up to our service</h5>
              <div>
