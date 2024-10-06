@@ -10,26 +10,7 @@
 
 <body class="bg-white">
 
-    <!-- Navbar -->
-    <nav class="flex items-center justify-between py-4 px-8 bg-white shadow">
-        <div class="flex items-center">
-            <!-- Logo -->
-            <img src="your-logo-url.png" alt="CityCab Logo" class="h-8 mr-4">
-            <span class="text-2xl font-bold text-yellow-600">city</span><span class="text-2xl font-bold text-gray-800">cab</span>
-        </div>
-        <!-- Navigation Links -->
-        <div class="hidden md:flex space-x-8 text-gray-700">
-            <a href="#" class="hover:text-yellow-600">Home</a>
-            <a href="#" class="hover:text-yellow-600">About</a>
-            <a href="#" class="hover:text-yellow-600">F.A.Q</a>
-            <a href="#" class="hover:text-yellow-600">Blog</a>
-            <a href="#" class="hover:text-yellow-600">More</a>
-        </div>
-        <!-- Contact Number -->
-        <div class="text-lg text-gray-700 font-semibold">
-            <span class="mr-2">📞</span>555.777.343
-        </div>
-    </nav>
+  
     <img src="taxi-stripe.webp" alt="" class="w-full h-3">
 
     <!-- Main Section -->
