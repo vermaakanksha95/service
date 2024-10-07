@@ -1,6 +1,7 @@
 @vite('resources/css/app.css')
+@extends('layout')
 
-<img src="taxi-stripe.webp" alt="" class="w-full h-3">
+<img src="taxi-stripe.webp" alt="" class="w-full h-3 mt-20">
 <div class=" p-5">
     <h2 class=" mt-5 font-semibold text-3xl text-yellow-500">City Cab Fever</h2>
     <input type="text" class=" px-4 py-3 border-2 border-yellow-500  w-full mt-3 rounded-3xl ">
@@ -37,3 +38,4 @@
     </div>
 
 </div>
+@include('footer')

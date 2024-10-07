@@ -1,7 +1,7 @@
 @vite('resources/css/app.css')
+@extends('layout')
 
-
-<img src="taxi-stripe.webp" alt="" class="w-full h-3">
+<img src="taxi-stripe.webp" alt="" class="w-full h-3 mt-20">
 
 <!-- Main Section -->
 <section class="flex flex-wrap items-center justify-between py-12 px-8">
@@ -221,3 +221,4 @@
     </div>
 
 </div>
+@include('footer')
