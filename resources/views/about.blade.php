@@ -1,4 +1,6 @@
 @vite('resources/css/app.css')
+
+
 <img src="taxi-stripe.webp" alt="" class="w-full h-3">
 
 <!-- Main Section -->
@@ -219,3 +221,4 @@
     </div>
 
 </div>
+@include('footer')

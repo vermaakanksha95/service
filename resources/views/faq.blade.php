@@ -1,6 +1,7 @@
 @vite('resources/css/app.css')
+@extends('layout')
 
-<img src="taxi-stripe.webp" alt="" class="w-full h-3">
+<img src="taxi-stripe.webp" alt="" class="w-full h-3 mt-20">
 
 <div class=" p-10">
     <h1 class=" text-[50px] text-yellow-500 font-bold ">F.A.Q</h1>
@@ -90,3 +91,4 @@
 
     </div>
 </div>
+@include('footer')
