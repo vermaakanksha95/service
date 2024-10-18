@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\AdminController;
+
 use Illuminate\Support\Facades\Route;
 
 //Route::get('/', function () {
@@ -31,3 +32,9 @@ Route::get('blog', function () {
 Route::get('faq', function () {
     return view('faq');
 })->name('faq');
+Route::get('registration', function () {
+    return view('registration');
+})->name('registration');
+
+
+   

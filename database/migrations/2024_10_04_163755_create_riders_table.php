@@ -13,6 +13,13 @@ return new class extends Migration
     {
         Schema::create('riders', function (Blueprint $table) {
             $table->id();
+            $table->string('name');
+            $table->string('phone_no');
+            $table->string('email');
+            $table->string('vehicle_type');
+            $table->date('license_expiry'); //License expiry date
+            $table->boolean('is_verified')->default(false);  
+            $table->boolean('is_available')->default(true);  
             $table->timestamps();
         });
     }

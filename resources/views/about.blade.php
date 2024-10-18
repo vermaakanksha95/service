@@ -1,6 +1,4 @@
 @vite('resources/css/app.css')
-
-
 <img src="taxi-stripe.webp" alt="" class="w-full h-3">
 
 <!-- Main Section -->
@@ -210,7 +208,7 @@
                 </div>
                 <div class=" flex  gap-24 items-center">
                     <label for="">Message</label>
-                    <textarea rows="5" class=" px-3 py-2 border border-black rounded-2xl w-full mt-5"></textarea>
+                    <textarea rows="6" class=" px-3 py-2 border border-black rounded-2xl w-full mt-5"></textarea>
                 </div>
                 <a href="" class=" px-3 py-2 bg-yellow-600 text-white rounded-2xl  p-5">Send Email</a>
 

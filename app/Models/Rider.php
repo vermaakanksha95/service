@@ -7,5 +7,16 @@ use Illuminate\Database\Eloquent\Model;
 
 class Rider extends Model
 {
-    use HasFactory;
+   
+
+    protected $fillable = [
+        
+        'name',
+        'phone_no',
+        'email',
+        'vehicle_type',
+        'license_expiry',
+        'is_verified',
+        'is_available'
+    ];
 }
