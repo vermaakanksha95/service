@@ -29,7 +29,7 @@
 
             <!-- Call to Action Button -->
             <div>
-                <a href="#" class="bg-white text-yellow-600 px-4 py-2 rounded-md font-semibold hover:bg-gray-100">
+                <a href="{{route('booking')}}" class="bg-white text-yellow-600 px-4 py-2 rounded-md font-semibold hover:bg-gray-100">
                     Book a Ride
                 </a>
             </div>
