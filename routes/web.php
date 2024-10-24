@@ -26,9 +26,9 @@ Route::get('blog', function () {
 Route::get('faq', function () {
     return view('faq');
 })->name('faq');
-Route::get('registration', function () {
-    return view('registration');
-})->name('registration');
+Route::get('booking', function () {
+    return view('booking');
+})->name('booking');
 
 Route::prefix("auth")->group(function(){
     Route::controller(AuthController::class)->group(function(){
