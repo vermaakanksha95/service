@@ -12,7 +12,7 @@
 
     <!-- Navbar -->
     <nav class="bg-yellow-500 text-white p-4 fixed w-full top-0 z-50 shadow-lg">
-        <div class="container mx-auto flex justify-between items-center">
+        <div class="container mx-auto flex justify-between items-center">6
             <!-- Logo and title -->
             <div class="flex items-center">
                 <img src="https://via.placeholder.com/50" alt="CityCab Logo" class="w-12 h-12 mr-3">
@@ -29,7 +29,7 @@
 
             <!-- Call to Action Button -->
             <div>
-                <a href="#" class="bg-white text-yellow-600 px-4 py-2 rounded-md font-semibold hover:bg-gray-100">
+                <a href="" class="bg-white text-yellow-600 px-4 py-2 rounded-md font-semibold hover:bg-gray-100">
                     Book a Ride
                 </a>
             </div>

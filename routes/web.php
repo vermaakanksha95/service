@@ -1,7 +1,7 @@
 <?php
 
 use App\Http\Controllers\AdminController;
-
+use App\Http\Controllers\AuthController;
 use Illuminate\Support\Facades\Route;
 
 //Route::get('/', function () {
@@ -16,12 +16,6 @@ Route::prefix("admin")->group(function () {
 Route::get('/', function () {
     return view('home');
 })->name('homepage');
-Route::get('login', function () {
-    return view('login');
-})->name('login');
-Route::get('register', function () {
-    return view('register');
-})->name('register');
 
 Route::get('about', function () {
     return view('about');
@@ -35,6 +29,13 @@ Route::get('faq', function () {
 Route::get('registration', function () {
     return view('registration');
 })->name('registration');
+
+Route::prefix("auth")->group(function(){
+    Route::controller(AuthController::class)->group(function(){
+    Route::match(["get","post"],"/login","login")->name("auth.login");
+    Route::match(["get","post"],"/register","register")->name("auth.register");
+    });
+});
 
 
    
