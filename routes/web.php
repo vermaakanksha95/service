@@ -41,6 +41,9 @@ Route::prefix("auth")->group(function(){
     Route::get("/logout","logout")->name("auth.logout");
     });
 });
+Route::get('book-details', function () {
+    return view('book-details');
+})->name('book-details');
 
 
    
