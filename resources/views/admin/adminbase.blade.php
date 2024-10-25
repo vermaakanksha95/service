@@ -35,31 +35,31 @@
 
                 <a href="#" class="block py-2.5 px-4 rounded transition duration-200 text-gray-200 hover:bg-gray-700 hover:text-white">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 inline-block mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 4a2 2 0 012-2h14a2 2 0 012 2v14a2 2 0 01-2 2H5a2 2 0 01-2-2V4z" />
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5l6 6m0 0l-6 6m6-6H5" />
                     </svg>
-                    Manage Products
+                    Manage Cabs
                 </a>
                 <a href="#" class="block py-2.5 px-4 rounded transition duration-200 text-gray-200 hover:bg-gray-700 hover:text-white">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 inline-block mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5l6 6m0 0l-6 6m6-6H5" />
                     </svg>
-                    Insert Products
+                    Insert Cabs
                 </a>
                 <a href="#" class="block py-2.5 px-4 rounded transition duration-200 text-gray-200 hover:bg-gray-700 hover:text-white">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 inline-block mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 4a2 2 0 012-2h14a2 2 0 012 2v14a2 2 0 01-2 2H5a2 2 0 01-2-2V4z" />
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5l6 6m0 0l-6 6m6-6H5" />
                     </svg>
-                    Manage Orders
+                    Manage Bookings
                 </a>
                 <a href="#" class="block py-2.5 px-4 rounded transition duration-200 text-gray-200 hover:bg-gray-700 hover:text-white">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 inline-block mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 4a2 2 0 012-2h14a2 2 0 012 2v14a2 2 0 01-2 2H5a2 2 0 01-2-2V4z" />
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5l6 6m0 0l-6 6m6-6H5" />
                     </svg>
                     Manage Payments
                 </a>
                 <a href="#" class="block py-2.5 px-4 rounded transition duration-200 text-gray-200 hover:bg-gray-700 hover:text-white">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 inline-block mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 4a2 2 0 012-2h14a2 2 0 012 2v14a2 2 0 01-2 2H5a2 2 0 01-2-2V4z" />
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5l6 6m0 0l-6 6m6-6H5" />
                     </svg>
                     Setting
                 </a>
@@ -73,7 +73,7 @@
 
         </div>
     </div>
-    
+
 </body>
 
 </html>
