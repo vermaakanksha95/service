@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>@yield('title')Admin Panel</title>
     @vite('resources/css/app.css')
 </head>
 
@@ -33,7 +33,7 @@
                     Dashboard
                 </a>
 
-                <a href="#" class="block py-2.5 px-4 rounded transition duration-200 text-gray-200 hover:bg-gray-700 hover:text-white">
+                <a href="{{route('cabs.index')}}" class="block py-2.5 px-4 rounded transition duration-200 text-gray-200 hover:bg-gray-700 hover:text-white">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 inline-block mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5l6 6m0 0l-6 6m6-6H5" />
                     </svg>

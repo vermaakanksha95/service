@@ -14,7 +14,12 @@ return new class extends Migration
         Schema::create('cabs', function (Blueprint $table) {
             $table->id();
             $table->string('name');
-            $table->boolean('status')->default(false);
+            
+           
+            $table->string('cab_type');
+            $table->string('cab_seat');
+            $table->string('cab_no');
+          
             $table->timestamps();
         });
     }
@@ -27,3 +32,4 @@ return new class extends Migration
         Schema::dropIfExists('cabs');
     }
 };
+

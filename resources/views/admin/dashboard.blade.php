@@ -1,4 +1,5 @@
 @extends('admin.adminbase')
+@section('title',"Dashboard|")
 
 @section('content')
 <div class="flex flex-1 p-5 flex-col gap-10">
