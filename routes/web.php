@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\AuthController;
+use App\Http\Controllers\CabController;
 use Illuminate\Support\Facades\Route;
 
 //Route::get('/', function () {
@@ -11,6 +12,9 @@ use Illuminate\Support\Facades\Route;
 Route::prefix("user")->group(function () {});
 Route::prefix("admin")->group(function () {
     Route::get("/", [AdminController::class, "dashboard"])->name("admin.dashboard");
+    Route::resources([
+        'cabs'=>CabController::class,
+    ]);
 });
 
 Route::get('/', function () {
