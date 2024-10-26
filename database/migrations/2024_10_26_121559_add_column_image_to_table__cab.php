@@ -11,14 +11,8 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('cabs', function (Blueprint $table) {
-            $table->id();
-            $table->string('name');
-            $table->string('cab_type');
-            $table->string('cab_seat');
-            $table->string('cab_no');
-            $table->string('image');
-            $table->timestamps();
+        Schema::table('Cabtable', function (Blueprint $table) {
+            $table->string('image'); 
         });
     }
 
@@ -27,7 +21,8 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('cabs');
+        Schema::table('Cabtable', function (Blueprint $table) {
+            //
+        });
     }
 };
-

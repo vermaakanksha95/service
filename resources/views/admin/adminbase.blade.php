@@ -10,11 +10,11 @@
 
 <body>
     <header class="bg-black shadow-lg ">
-        <div class="container  px-4 py-4 flex justify-between items-center">
+        <div class="container  px-10 py-4 flex justify-between items-center">
             <div class="text-2xl font-bold text-white">
-                <a href="#">CITYCAB</a>
+                <a href="#">CityCab</a>
             </div>
-            <a href="#" class="bg-black text-white px-4 py-2 rounded-md">Logout</a>
+            <a href="#" class="bg-black text-white rounded-md">Logout</a>
 
         </div>
     </header>
