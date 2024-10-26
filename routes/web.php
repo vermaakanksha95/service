@@ -3,6 +3,7 @@
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\CabController;
+use App\Http\Controllers\RiderController;
 use Illuminate\Support\Facades\Route;
 
 //Route::get('/', function () {
@@ -15,6 +16,13 @@ Route::prefix("admin")->group(function () {
     Route::resources([
         'cabs'=>CabController::class,
     ]);
+});
+
+Route::prefix("rider")->group(function(){
+    Route::get("/", [RiderController::class, "dashboard"])->name("rider.dashboard");
+   
+
+
 });
 
 Route::get('/', function () {
