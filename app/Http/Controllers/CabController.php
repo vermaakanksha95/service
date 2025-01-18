@@ -1,5 +1,4 @@
 <?php
-
 namespace App\Http\Controllers;
 
 use App\Models\Cab;
@@ -21,9 +20,6 @@ class CabController extends Controller
             'cab_seat' => 'required|max:255',
             'cab_type' => 'required|max:255',
             'image' => 'required|max:255',
-
-
-
         ]);
         $cabs = new Cab();
         $cabs->name = $request->name;
